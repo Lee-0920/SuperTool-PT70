@@ -1,0 +1,119 @@
+QPushButton#transparentButton{
+        background:transparent;
+}
+
+QPushButton#brownButton{
+        border-radius:5px;
+        border:1px solid gray;
+        background:rgb(85, 170, 200);
+        color:white;
+        border-style: outset;
+}
+
+QPushButton#brownButton::pressed{
+        color:rgb(173, 115, 0);
+        background:white;
+}
+
+QPushButton#brownButton:!enabled{
+        color:black;
+        background:rgb(204, 204, 204);
+}
+
+QPushButton#redButton{
+        border-radius:5px;
+        border:1px solid gray;
+        background:rgb(200, 55, 55);
+        color:white;
+        border-style: outset;
+}
+
+QPushButton#redButton::pressed{
+        color:rgb(173, 115, 0);
+        background:white;
+}
+
+QPushButton#redButton:!enabled{
+        color:black;
+        background:rgb(204, 204, 204);
+}
+
+QPushButton#warnButton{
+        border-radius:5px;
+        border:1px solid gray;
+        background:rgb(220, 128, 0);
+        color:white;
+        border-style: outset;
+}
+
+QPushButton#warnButton::pressed{
+        color:rgb(173, 115, 0);
+        background:white;
+}
+
+QPushButton#warnButton:!enabled{
+        color:black;
+        background:rgb(204, 204, 204);
+}
+
+QPushButton#greenButton{
+        border-radius:5px;
+        border:1px solid gray;
+        background:rgb(50, 200, 50);
+        color:white;
+        border-style: outset;
+}
+
+QPushButton#greenButton::pressed{
+        color:rgb(173, 115, 0);
+        background:white;
+}
+
+QPushButton#greenButton:!enabled{
+        color:black;
+        background:rgb(204, 204, 204);
+}
+
+
+QComboBox#brownComboBox:!enabled{
+        color:black;
+        background:rgb(204, 204, 204);
+}
+
+QLabel#productTypeLabel{
+    color: rgb(17, 88, 255);
+    background:transparent;
+}
+
+
+QLabel#blueLabel{
+    color: blue;
+}
+
+
+QTabWidget::pane{
+    border:none;
+}
+
+QTabBar::tab{
+    background:rgb(100, 150, 150);
+    color:white;
+    width:15ex;
+    height:6ex;
+    font: bold 13px;
+}
+QTabBar::tab:hover{
+        background:rgb(115, 172, 172, 100);
+}
+QTabBar::tab:selected{
+    border-color: white;
+    background:white;
+    color:rgb(145, 70, 0);
+    font: bold 13px;
+}
+
+QMessageBox{
+
+   background:rgb(240, 250, 255);
+
+}

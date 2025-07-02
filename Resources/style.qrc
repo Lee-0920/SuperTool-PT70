@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>Style.qss</file>
+    </qresource>
+    <qresource prefix="/pic">
+        <file>pic/LuipLog.bmp</file>
+        <file>pic/WQIMC.ico</file>
+        <file>pic/17.jpg</file>
+        <file>pic/17_big.jpg</file>
+    </qresource>
+</RCC>
